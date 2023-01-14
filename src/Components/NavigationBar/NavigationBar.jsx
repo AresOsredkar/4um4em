@@ -9,3 +9,4 @@ function NavigationBar(theme, props) {
 }
 
 export default NavigationBar
+
