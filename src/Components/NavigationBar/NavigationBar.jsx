@@ -1,9 +1,10 @@
 import React from 'react'
+import './NavigationBar.scss'
 
-function NavigationBar(theme, props) {
+function NavigationBar({theme, children }) {
   return (
-    <nav class={theme}>
-        { props }
+    <nav className={ theme }>
+        { children }
     </nav>
   )
 }
