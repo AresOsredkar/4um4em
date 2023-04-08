@@ -13,6 +13,7 @@ function App() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/Posts">Posts</Link></li>
           <li><Link to="/Account">Account</Link></li>
+          <li><Link to="/moodle">Moodle</Link></li>f
         </ul>
       </NavigationBar>
       <Routes>
